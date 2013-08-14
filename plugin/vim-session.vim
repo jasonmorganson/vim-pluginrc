@@ -1,4 +1,4 @@
 " vim-session configuration
 
-let g:session_autoload=1
-let g:session_autosave=1
+let g:session_autoload = 'yes'
+let g:session_autosave = 'yes'
