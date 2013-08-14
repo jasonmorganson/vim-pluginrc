@@ -1,5 +1,6 @@
 if exists( "g:loaded_youcompleteme" )
       finish
+endif
 
 if g:ycm_check_if_ycm_core_present && !s:HasYcmCore()
   echohl WarningMsg |
