@@ -4,10 +4,12 @@ nnoremap [unite] <Nop>
 nmap     <space> [unite]
 
 let g:unite_source_history_yank_enable = 1
+"let g:unite_source_rec_async_command='ag --nocolor --nogroup -g ""'
+"let g:unite_source_rec_async_command = 'ag --follow --nocolor --nogroup --hidden -g ""'
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
-nnoremap <silent> [unite]<space> :<C-u>Unite -buffer-name=mixed    file_rec/async buffer file_mru bookmark -auto-resize -toggle <cr><c-u>
-nnoremap <silent> [unite]f       :<C-u>Unite -buffer-name=files    file_rec/async -auto-resize -toggle -start-insert <cr><c-u>
+nnoremap <silent> [unite]<space> :<C-u>Unite -buffer-name=mixed    file buffer bookmark -auto-resize -toggle -start-insert <cr><c-u>
+nnoremap <silent> [unite]f       :<C-u>Unite -buffer-name=files    file           -auto-resize -toggle <cr><c-u>
 nnoremap <silent> [unite]l       :<C-u>Unite -buffer-name=line     line           -auto-resize <cr>
 nnoremap <silent> [unite]b       :<C-u>Unite -buffer-name=buffers  buffer         -auto-resize <cr>
 nnoremap <silent> [unite]t       :<C-u>Unite -buffer-name=tags     tags tags/file -auto-resize <cr>
