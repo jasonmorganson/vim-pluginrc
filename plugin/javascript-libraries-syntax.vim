@@ -1,3 +1,3 @@
 " javascript-libraries-syntax configuration
 
-let g:used_javascript_libs = 'angularjs,angularui,chai'
+let g:used_javascript_libs = ''
