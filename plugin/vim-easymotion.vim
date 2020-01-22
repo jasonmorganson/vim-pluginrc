@@ -15,10 +15,10 @@ let g:EasyMotion_startofline = 0 " keep cursor colum when JK motion
 nmap s <Plug>(easymotion-s2)
 
 " JK motions: Line motions
-map <Leader>j <Plug>(easymotion-j)
-map <Leader>k <Plug>(easymotion-k)
-map <Leader>h <Plug>(easymotion-lineforward)
-map <Leader>l <Plug>(easymotion-linebackward)
+" map <Leader>j <Plug>(easymotion-j)
+" map <Leader>k <Plug>(easymotion-k)
+" map <Leader>h <Plug>(easymotion-lineforward)
+" map <Leader>l <Plug>(easymotion-linebackward)
 
 " Search
 map  / <Plug>(easymotion-sn)
