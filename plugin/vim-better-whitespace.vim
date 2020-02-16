@@ -1,3 +1,3 @@
 " Better whitespace configuration
 
-autocmd BufWritePre * StripWhitespace
+" autocmd BufWritePre * StripWhitespace
